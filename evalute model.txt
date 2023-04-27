@@ -1,0 +1,2 @@
+scores = model.evaluate(X_train, y_train, verbose=0)
+print("%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
